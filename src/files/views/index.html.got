@@ -1,0 +1,21 @@
+<article>
+<h1>My Files</h1>
+
+<div class="row">
+<form accept-charset="UTF-8" action="/files" method="get" class="filter-form">
+      <input type="hidden" name="filter" class="right" placeholder="Search..." value="{{ .filter }}">
+</form>
+</div>
+
+<div class="row">
+<table class="data-table">
+    {{ $0 := . }}
+    {{ template "files/views/row.html.got" . }}
+    {{ range $i,$m := .files }}
+       {{ set $0 "i" $i }}
+       {{ set $0 "file" $m }}
+       {{ template "files/views/row.html.got" $0 }}
+    {{ end }}
+</table>
+</div>
+</article>

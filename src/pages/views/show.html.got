@@ -1,0 +1,8 @@
+<article class="page">
+{{ html .page.Text }}
+</article>
+{{ if .current_user.Admin }}
+<section class="center">
+<a href="/pages/{{.page.Id}}/update" class="button">Edit Page</a>
+</section>
+{{ end }}
