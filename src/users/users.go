@@ -107,7 +107,7 @@ func validateParams(params map[string]string) error {
 
 	err = validate.Length(params["key"], 256, 20480)
 	if err != nil {
-		return router.InternalError(err, "Key too short", "Your key must be at least 256 bytes, and no longer than 20Kbytes")
+		return router.InternalError(err, "Key invalid length", "Your key must be at least 256 bytes, and no longer than 20Kbytes")
 	}
 
 	// Password may be blank
