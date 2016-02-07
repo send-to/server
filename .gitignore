@@ -1,24 +1,17 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
+# Ignore databases
+db/*.sqlite3
+db/backup/*.gz
 
-# Folders
-_obj
-_test
+# Ignore all logfiles and tempfiles.
+log
+tmp
 
-# Architecture specific extensions/prefixes
-*.[568vq]
-[568vq].out
+# Ignore generated binaries
+bin/fragmenta*
 
-*.cgo1.go
-*.cgo2.c
-_cgo_defun.c
-_cgo_gotypes.go
-_cgo_export.*
+# Ignore secrets dir
+secrets
 
-_testmain.go
-
-*.exe
-*.test
-*.prof
+# Ignore generated assets
+public/assets/scripts/app-*
+public/assets/styles/app-*
