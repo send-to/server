@@ -4,8 +4,8 @@ import (
 	"github.com/fragmenta/router"
 	"github.com/fragmenta/view"
 
-	"github.com/gophergala2016/sendto/server/src/files"
-	"github.com/gophergala2016/sendto/server/src/lib/authorise"
+	"github.com/send-to/server/src/files"
+	"github.com/send-to/server/src/lib/authorise"
 )
 
 // HandleIndex displays a list of files

@@ -4,8 +4,8 @@ import (
 	"github.com/fragmenta/router"
 	"github.com/fragmenta/view"
 
-	"github.com/gophergala2016/sendto/server/src/lib/authorise"
-	"github.com/gophergala2016/sendto/server/src/users"
+	"github.com/send-to/server/src/lib/authorise"
+	"github.com/send-to/server/src/users"
 )
 
 // HandleUpdateShow renders the form to update a user

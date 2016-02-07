@@ -5,7 +5,7 @@ import (
 
 	"github.com/fragmenta/server"
 
-	"github.com/gophergala2016/sendto/server/src/app"
+	"github.com/send-to/server/src/app"
 )
 
 func main() {

@@ -6,8 +6,8 @@ import (
 	"github.com/fragmenta/router"
 	"github.com/fragmenta/view"
 
-	"github.com/gophergala2016/sendto/server/src/lib/authorise"
-	"github.com/gophergala2016/sendto/server/src/pages"
+	"github.com/send-to/server/src/lib/authorise"
+	"github.com/send-to/server/src/pages"
 )
 
 // HandleIndex displays a list of pages

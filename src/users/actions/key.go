@@ -5,7 +5,7 @@ import (
 
 	"github.com/fragmenta/router"
 
-	"github.com/gophergala2016/sendto/server/src/users"
+	"github.com/send-to/server/src/users"
 )
 
 // HandleShowKey displays a single user's key

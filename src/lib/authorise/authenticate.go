@@ -6,7 +6,7 @@ import (
 	"github.com/fragmenta/auth"
 	"github.com/fragmenta/router"
 
-	"github.com/gophergala2016/sendto/server/src/users"
+	"github.com/send-to/server/src/users"
 )
 
 // CurrentUser returns the saved user (or an empty anon user) for the current session cookie

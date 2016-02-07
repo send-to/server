@@ -8,7 +8,7 @@ import (
 	"github.com/fragmenta/router"
 	"github.com/fragmenta/server"
 
-	"github.com/gophergala2016/sendto/server/src/users"
+	"github.com/send-to/server/src/users"
 )
 
 // ResourceModel defines the interface for models passed to authorise.Resource

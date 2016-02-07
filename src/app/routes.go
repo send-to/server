@@ -2,9 +2,9 @@ package app
 
 import (
 	"github.com/fragmenta/router"
-	"github.com/gophergala2016/sendto/server/src/files/actions"
-	"github.com/gophergala2016/sendto/server/src/pages/actions"
-	"github.com/gophergala2016/sendto/server/src/users/actions"
+	"github.com/send-to/server/src/files/actions"
+	"github.com/send-to/server/src/pages/actions"
+	"github.com/send-to/server/src/users/actions"
 )
 
 // Define routes for this app

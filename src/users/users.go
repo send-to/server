@@ -10,7 +10,7 @@ import (
 	"github.com/fragmenta/query"
 	"github.com/fragmenta/router"
 
-	"github.com/gophergala2016/sendto/server/src/lib/status"
+	"github.com/send-to/server/src/lib/status"
 )
 
 // Roles for users

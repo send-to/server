@@ -14,7 +14,7 @@ import (
 	"github.com/fragmenta/model/validate"
 	"github.com/fragmenta/query"
 
-	"github.com/gophergala2016/sendto/server/src/lib/status"
+	"github.com/send-to/server/src/lib/status"
 )
 
 // File handles saving and retreiving files from the database

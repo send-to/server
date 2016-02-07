@@ -10,7 +10,7 @@ import (
 	"github.com/fragmenta/server/log"
 	"github.com/fragmenta/view"
 
-	"github.com/gophergala2016/sendto/server/src/lib/authorise"
+	"github.com/send-to/server/src/lib/authorise"
 )
 
 // appAssets holds a reference to our assets for use in asset setup

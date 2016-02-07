@@ -7,9 +7,9 @@ import (
 	"github.com/fragmenta/router"
 	"github.com/fragmenta/view"
 
-	"github.com/gophergala2016/sendto/server/src/lib/authorise"
-	"github.com/gophergala2016/sendto/server/src/lib/status"
-	"github.com/gophergala2016/sendto/server/src/users"
+	"github.com/send-to/server/src/lib/authorise"
+	"github.com/send-to/server/src/lib/status"
+	"github.com/send-to/server/src/users"
 )
 
 // HandleCreateShow serves the create form via GET for users

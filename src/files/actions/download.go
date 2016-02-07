@@ -6,8 +6,8 @@ import (
 
 	"github.com/fragmenta/router"
 
-	"github.com/gophergala2016/sendto/server/src/files"
-	"github.com/gophergala2016/sendto/server/src/lib/authorise"
+	"github.com/send-to/server/src/files"
+	"github.com/send-to/server/src/lib/authorise"
 )
 
 // HandleDownload sends a single file

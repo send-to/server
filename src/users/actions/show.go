@@ -4,7 +4,7 @@ import (
 	"github.com/fragmenta/router"
 	"github.com/fragmenta/view"
 
-	"github.com/gophergala2016/sendto/server/src/users"
+	"github.com/send-to/server/src/users"
 )
 
 // NB no authorisation for access
