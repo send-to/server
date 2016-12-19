@@ -88,3 +88,17 @@ func errHandler(context router.Context, e error) {
 	context.Logf("#error %s\n", err)
 	view.Render()
 }
+
+// redirectHTTP redirects all traffic not on the root_url to our canoncial url.
+// so for example often www traffic -> bare domain or vice versa.
+func redirectHTTP(context router.Context) error {
+	siteURL := context.Config("root_url")
+
+	// If host doesn't match (e.g. www)
+	// OR port is not main port, redirect to main site
+	if "https://"+context.Request().Host != siteURL {
+		http.Redirect(context.Writer(), context.Request(), siteURL, http.StatusMovedPermanently)
+	}
+
+	return nil
+}

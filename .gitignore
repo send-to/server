@@ -7,7 +7,10 @@ log
 tmp
 
 # Ignore generated binaries
-bin/fragmenta*
+bin/*
+
+# Ignore files
+files/*
 
 # Ignore secrets dir
 secrets
