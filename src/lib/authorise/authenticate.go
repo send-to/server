@@ -53,6 +53,7 @@ func CurrentUser(context router.Context) *users.User {
 
 // AuthenticityTokenFilter sets the authenticity token on the context and on the cookie
 func AuthenticityTokenFilter(c router.Context) error {
+
 	token, err := auth.AuthenticityToken(c.Writer(), c.Request())
 	if err != nil {
 		return err
